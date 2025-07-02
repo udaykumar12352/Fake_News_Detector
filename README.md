@@ -8,16 +8,11 @@ A robust fake news detection system that combines multiple machine learning mode
 
 ## 🌟 Features
 
-- **Multiple Model Analysis**: Combines predictions from:
-  - DistilBERT (Transformer-based)
-  - XGBoost
-  - Random Forest
-  - LightGBM
-  - Logistic Regression
-- **Interactive Web Interface**: Modern, responsive UI with dark/light mode
-- **Detailed Analysis**: Shows confidence scores and reasoning for each model
-- **Consensus Voting**: Weighted voting system for final prediction
-- **Visual Analytics**: Interactive charts showing model confidence levels
+- **Multiple Model Analysis**: combines predictions from Random Forest, XGBoost, DistilBERT (Transformer-based), LightGBM and Logistic Regression
+- **Detailed Analysis**: Displays reasoning and confidence scores for each model
+- **Consensus Voting**: Weighted voting method for final prediction
+- **Interactive Web Interface**: Contemporary, responsive UI with dark/light mode
+- **Visual Analytics**: Interactive charts displaying model confidence levels
 
 ## Technologies Used
 
@@ -65,16 +60,9 @@ A robust fake news detection system that combines multiple machine learning mode
    ```
 
 2. **Create and activate a virtual environment**
-   ```bash
-   # Using conda
-   conda create -n BERT python=3.8
-   conda activate BERT
-
-   # Or using venv
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-
 3. **Install dependencies**
    ```bash
    pip install -r requirements.txt
@@ -93,9 +81,8 @@ A robust fake news detection system that combines multiple machine learning mode
    ```
 
 2. **Access the web interface**
-   - Open your browser and go to `http://localhost:5000`
-   - Enter a news article in the text area
-   - Click "Analyze Article" to get predictions
+   - Go to `http://localhost:5000` in your browser.
+   - Click "Analyze Article" to obtain predictions after entering a news story in the text field.
 
 ## 📁 Project Structure
 <pre>
@@ -117,10 +104,8 @@ fake-news-detection/
 ### Models Used
 
 1. **DistilBERT**
-   - Transformer-based model for deep semantic understanding
-   - Handles contextual analysis and nuanced language patterns
-   - Uses contextual understanding of language
-   - Generally has higher accuracy than traditional ML models
+   - Deep semantic understanding using a transformer-based model that manages contextual analysis and subtle linguistic patterns.
+   - It makes use of contextual language understanding and is typically more accurate than conventional machine learning models.
 
 2. **Traditional ML Models**
    - XGBoost: Gradient boosting for structured data
@@ -220,10 +205,6 @@ for model, prediction in results.items():
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 

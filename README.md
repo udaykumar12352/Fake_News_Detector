@@ -231,9 +231,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Flask for the web framework
 - All other open-source libraries used in this project
 
-## 📧 Contact
 
-For questions or suggestions, please open an issue or contact [rodwanbagdadi@gmail.com]
-
----
-Made with ❤️ by Rodwan

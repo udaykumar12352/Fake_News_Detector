@@ -60,15 +60,16 @@ A robust fake news detection system that combines multiple machine learning mode
    ```
 
 2. **Create and activate a virtual environment**
+    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
-3. **Install dependencies**
+4. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Download NLTK data**
+5. **Download NLTK data**
    ```python
    python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
    ```
